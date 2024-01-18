@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
-import { ReactComponent as AddIcon } from '../icons/plus-user.svg';
 import { Form, Input, Text, Button } from './ContactForm.styled';
 
 function ContactForm({ addContact }) {
@@ -56,7 +55,7 @@ function ContactForm({ addContact }) {
           onChange={handleNumberChange}
         />
 
-        <Button type="submit"><AddIcon /></Button> 
+        <Button type="submit">Add Contact</Button> 
         
       </Form>
     );
